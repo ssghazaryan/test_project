@@ -5,7 +5,7 @@ class AllertScreen extends StatelessWidget {
   final String allert;
   const AllertScreen({
     super.key,
-    this.allert = 'Для работы приложения необходимо интернет',
+    this.allert = 'For the application of the application you need the Internet',
   });
 
   @override

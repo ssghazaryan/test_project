@@ -34,7 +34,7 @@ class QuizGameScreen extends StatelessWidget {
                             children: [
                               Expanded(
                                 child: Text(
-                                  'Счет: ${provider.data.score} из ${provider.data.quiz!.items!.length}',
+                                  'Check: ${provider.data.score} from ${provider.data.quiz!.items!.length}',
                                   style: GoogleFonts.ubuntu(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
@@ -49,7 +49,7 @@ class QuizGameScreen extends StatelessWidget {
                                   ),
                                   color: Colors.black,
                                   child: Text(
-                                    'Сбросить',
+                                    'Reset',
                                     textAlign: TextAlign.center,
                                     style: GoogleFonts.ubuntu(
                                       fontSize: 15,
@@ -69,7 +69,7 @@ class QuizGameScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            'Хотите начать игру?',
+                            'Start the game?',
                             style: GoogleFonts.ubuntu(
                               fontSize: 30,
                               fontWeight: FontWeight.bold,
@@ -82,7 +82,7 @@ class QuizGameScreen extends StatelessWidget {
                           CupertinoButton(
                               color: Colors.green,
                               child: Text(
-                                'Начать',
+                                'GO',
                                 textAlign: TextAlign.center,
                                 style: GoogleFonts.ubuntu(
                                   fontSize: 15,
@@ -109,7 +109,7 @@ class QuizGameScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'К что то пошло не так',
+                      'Something went wrong',
                       textAlign: TextAlign.center,
                       style: GoogleFonts.ubuntu(
                         fontSize: 30,
@@ -123,7 +123,7 @@ class QuizGameScreen extends StatelessWidget {
                     CupertinoButton(
                         color: Colors.black,
                         child: Text(
-                          'Перезагрузить',
+                          'Reload',
                           textAlign: TextAlign.center,
                           style: GoogleFonts.ubuntu(
                             fontSize: 15,
@@ -200,8 +200,8 @@ class QuizGameScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
                         provider.correctText != null
-                            ? 'Не правильно, правиильный ответ: ${provider.correctText}'
-                            : 'Правильно',
+                            ? 'Not right, the correct answer: ${provider.correctText}'
+                            : 'Right',
                         textAlign: TextAlign.center,
                         style: GoogleFonts.ubuntu(
                           fontSize: 20,
@@ -219,8 +219,8 @@ class QuizGameScreen extends StatelessWidget {
                           color: Colors.black,
                           child: Text(
                             provider.usedQuestions.length == 21
-                                ? 'Завершить'
-                                : 'Дальше',
+                                ? 'Complete'
+                                : 'Next',
                             textAlign: TextAlign.center,
                             style: GoogleFonts.ubuntu(
                               fontSize: 15,
@@ -231,51 +231,6 @@ class QuizGameScreen extends StatelessWidget {
                           onPressed: () {
                             provider.nextQuestion();
                           }),
-                    ),
-                    const SizedBox(
-                      height: 100,
-                    ),
-                  ],
-                ),
-              );
-            }
-
-            if (provider.data.state == QuizState.score) {
-              return Center(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text(
-                        'Счет: ${provider.data.score} из ${provider.usedQuestions.length}',
-                        textAlign: TextAlign.center,
-                        style: GoogleFonts.ubuntu(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                          color: const Color.fromARGB(255, 70, 58, 58),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(
-                      height: 40,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: CupertinoButton(
-                          color: Colors.black,
-                          child: Text(
-                            provider.usedQuestions.length == 21
-                                ? 'Завершить'
-                                : 'Дальше',
-                            textAlign: TextAlign.center,
-                            style: GoogleFonts.ubuntu(
-                              fontSize: 15,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.white,
-                            ),
-                          ),
-                          onPressed: () {}),
                     ),
                     const SizedBox(
                       height: 100,

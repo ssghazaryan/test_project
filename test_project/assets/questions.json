@@ -1,148 +1,148 @@
 {
     "items": [
         {
-            "title": "Начало пути к финишу",
+            "title": "The beginning of the path to the finish",
             "index": 0,
             "types": [
-                "Старт",
-                "Квотар",
-                "Центр"
+                "Start",
+                "Quotar",
+                "Center"
             ]
         },
         {
-            "title": "Чего не надо, если есть сила?",
+            "title": "What is not necessary if there is power?",
             "index": 1,
             "types": [
-                "Еды",
-                "Ума",
-                "Смелости"
+                "Food",
+                "Mind",
+                "Courage"
             ]
         },
         {
-            "title": "Инструмент спортивного судьи.",
+            "title": "Tool of a sports judge.",
             "index": 0,
             "types": [
-                "Свисток",
-                "Шлем",
-                "Телефон"
+                "Whistle",
+                "Helmet",
+                "Phone"
             ]
         },
         {
-            "title": "Боксерский корт",
+            "title": "Boxing court",
             "index": 2,
             "types": [
-                "Стадион",
-                "Арена",
-                "Ринг"
+                "Stadium",
+                "Arena",
+                "Ring"
             ]
         },
         {
-            "title": "Боксёрская трехминутка?",
+            "title": "Boxing three -minute?",
             "index": 1,
             "types": [
-                "Сет",
-                "Раунд",
-                "Тайм"
+                "Set",
+                "Round",
+                "Half"
             ]
         },
         {
-            "title": "Спортивный снаряд для перетягивания.",
+            "title": "Sports shell for tightening.",
             "index": 0,
             "types": [
-                "Канат",
-                "Трос"
+                "Wing",
+                "Cable"
             ]
         },
         {
-            "title": "“Бородатый” спортивный снаряд.",
+            "title": "A bearded sports projectile.",
             "index": 0,
             "types": [
-                "Козёл",
-                "Гиря",
-                "Матрас"
+                "Goat",
+                "Weight",
+                "Mattress"
             ]
         },
         {
-            "title": "Мяч вне игры",
+            "title": "Ball outside the game",
             "index": 0,
             "types": [
-                "Аут",
-                "Фалл"
+                "Out",
+                "Phall"
             ]
         },
         {
-            "title": "Передача мяча в игре.",
+            "title": "Transfer of the ball in the game.",
             "index": 1,
             "types": [
-                "Гол",
-                "Пас",
-                "Аут"
+                "Goal",
+                "Pass",
+                "Out"
             ]
         },
         {
-            "title": "Русский народный бейсбол?",
+            "title": "Russian folk baseball?",
             "index": 0,
             "types": [
-                "Лапта",
-                "Батла",
-                "Не знаю"
+                "Bast shoes",
+                "Batla",
+                "Don't know"
             ]
         },
         {
-            "title": "Бейсбольная ударница",
+            "title": "Baseball drummer",
             "index": 1,
             "types": [
-                "Ракета",
-                "Бита",
-                "Палка"
+                "Rocket",
+                "Bit",
+                "Stick"
             ]
         },
         {
-            "title": "Танцор на льду",
+            "title": "Dancer on the ice",
             "index": 0,
             "types": [
-                "Фигурист",
-                "Хокеис"
+                "Figure skater",
+                "Hokeis"
             ]
         },
         {
-            "title": "Спортсмен, который ходит сидя",
+            "title": "An athlete walking sitting",
             "index": 2,
             "types": [
-                "Гольфист",
-                "Бегун",
-                "Шахматист"
+                "Golphist",
+                "Runner",
+                "Chess player"
             ]
         },
         {
-            "title": "Это имя объединило и известного шахматиста и юного мага",
+            "title": "This name united the famous chess player and young magician",
             "index": 1,
             "types": [
-                "Гена",
-                "Гарри",
-                "Доналд"
+                "Gene",
+                "Harry",
+                "Donald"
             ]
         },
         {
-            "title": "Летающий участник бадминтона.",
+            "title": "Flying participant in badminton.",
             "index": 0,
             "types": [
-                "Воланчик",
-                "Снаряд",
-                "Сетка"
+                "Volanchik",
+                "Shell",
+                "Grid"
             ]
         },
         {
-            "title": "Чем покрывали гладиаторскую арену в Древнем Риме?",
+            "title": "How did the gladiatorial arena cover in ancient Rome?",
             "index": 1,
             "types": [
-                "Глигой",
-                "Песком",
-                "Солью"
+                "Gliga",
+                "Sand",
+                "Salt"
             ]
         },
         {
-            "title": "Сколько видов спорта существует в мире?",
+            "title": "How many sports exists in the world?",
             "index": 0,
             "types": [
                 "3000",
@@ -152,47 +152,47 @@
             ]
         },
         {
-            "title": "Пара лошадей пробежала 40км. Сколько пробежала каждая лошадь? ",
+            "title": "A couple of horses ran 40 km. How much did each horse run?",
             "index": 1,
             "types": [
-                "20км",
-                "40км"
+                "20km",
+                "40km"
             ]
         },
         {
-            "title": "Как часто проводятся Олимпийские игры?",
+            "title": "How often are the Olympic Games?",
             "index": 2,
             "types": [
-                "один раз в пять лет",
-                "один раз в три года",
-                "один раз в четыре года"
+                "Once every five years",
+                "Once every three years",
+                "Once every four years"
             ]
         },
         {
-            "title": "Какова длина марафонской дистанции?",
+            "title": "What is the length of the marathon distance?",
             "index": 0,
             "types": [
-                "42км 195м",
+                "42km 195m",
                 "38585",
                 "47122"
             ]
         },
         {
-            "title": "Какая длина беговой дорожки на спортивном стадионе?",
+            "title": "What is the length of the treadmill at the sports stadium?",
             "index": 3,
             "types": [
-                "100м",
-                "200м",
-                "300м",
-                "400м"
+                "100m",
+                "200m",
+                "300m",
+                "400m"
             ]
         },
         {
-            "title": "Пара лошадей пробежала 40км. Сколько пробежала каждая лошадь? ",
+            "title": "A couple of horses ran 40 km. How much did each horse run?",
             "index": 1,
             "types": [
-                "20км",
-                "40км"
+                "20km",
+                "40km"
             ]
         }
     ]

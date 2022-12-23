@@ -13,7 +13,6 @@ enum QuizState {
   error,
   gameProgres,
   result,
-  score,
 }
 
 class QuizProvider extends ChangeNotifier {
