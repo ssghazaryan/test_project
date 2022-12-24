@@ -1,49 +1,34 @@
 {
   "project_info": {
-    "project_number": "170358377169",
-    "project_id": "testapp-a5eb8",
-    "storage_bucket": "testapp-a5eb8.appspot.com"
+    "project_number": "857272028293",
+    "project_id": "kasexima",
+    "storage_bucket": "kasexima.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:170358377169:android:b34829c484b1fc025e53f0",
+        "mobilesdk_app_id": "1:857272028293:android:c684a13302a21682426dec",
         "android_client_info": {
-          "package_name": "com.example.test_project"
+          "package_name": "stoiximan.revillt"
         }
       },
       "oauth_client": [
         {
-          "client_id": "170358377169-q2s3j6vgokdtv4s9ij58eaiou8nvoqis.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.test_project",
-            "certificate_hash": "7d2dcf0eaa572a54909b5dcca2b7e38848bc40f4"
-          }
-        },
-        {
-          "client_id": "170358377169-lgs6r4ub12os3116vrq3su3bmlbegku4.apps.googleusercontent.com",
+          "client_id": "857272028293-43th519tg8hv1haj5iuuj1qubs27frlc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCk4tjDU7G5SF-VO9YoiiwR8Twal37tQfw"
+          "current_key": "AIzaSyBeVvsvzgsCxn3yyUhzUKNyVP25PSh-xQ8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "170358377169-lgs6r4ub12os3116vrq3su3bmlbegku4.apps.googleusercontent.com",
+              "client_id": "857272028293-43th519tg8hv1haj5iuuj1qubs27frlc.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "170358377169-20oljs68m2jdcca77h7pfp9326a42ou0.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "serg.test.app"
-              }
             }
           ]
         }

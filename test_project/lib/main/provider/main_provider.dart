@@ -23,7 +23,6 @@ class MainProvider extends ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
 
     data.url = prefs.getString('url');
-
     try {
       if (data.url == null) {
         await conntectToRemote();
@@ -63,11 +62,15 @@ class MainProvider extends ChangeNotifier {
 
     final config = remoteConfig.getAll();
 
+    debugPrint('Url: ${config['url']!.asString()}');
+
     if (config['url'] != null) {
       data.url = config['url']!.asString();
 
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setString('url', data.url!);
+      if (!types.contains(data.url)) {
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString('url', data.url!);
+      }
     }
   }
 
